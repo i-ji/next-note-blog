@@ -1,18 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## URL
+こちらのリンクからご利用ください。
+https://next-note-blog.vercel.app/
 
-First, run the development server:
+## サービスへの想い
+「自分でブログサイト」を作ってみたいと考え作成に取り掛かったが、想像以上に複雑になると感じました。<br>
+「今はnote等便利な投稿サイトがあるしそれでいいのでは？」と考えたところ、逆転の発想で「note記事のブログ化」を思いついきました。<br>
+その為、noteに投稿した自分の記事をnoteAPIから引っ張ってブログ風に仕立てました。<br>
+現時点では、ランニング系YouTuberのたむじょーさんのnote記事をダミーとして使わせてもらっています。<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 使用技術
+- React 18
+- Next.js 14.2.4
+- TypeScript 5
+- Tailwind CSS 3.4.1
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
